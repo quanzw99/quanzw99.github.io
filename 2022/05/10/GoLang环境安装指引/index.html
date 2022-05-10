@@ -6,7 +6,11 @@
 <li>GOROOT告诉操作系统Go的安装目录；以便于后续执行<code>go build</code>等命令时操作系统找到Go的可执行文件。</li>
 <li>GOPATH可以理解为源码存放的工作目录。</li>
 <li>最后因为<code>go install</code>会将生成的可执行文件移动到$GOPATH&#x2F;bin下去，配置此路径可使其全局使用。</li>
-<li>可以通过<code>go env</code>查看各参数的值。<h2 id="项目目录解析"><a href="#项目目录解析" class="headerlink" title="项目目录解析"></a>项目目录解析</h2>Go的项目目录通常如下:<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">├─ code  -- 代码根目录</span><br><span class="line">│  ├─ bin</span><br><span class="line">│  ├─ pkg</span><br><span class="line">│  ├─ src</span><br><span class="line">│     ├── hello</span><br><span class="line">│         ├── hello.go</span><br></pre></td></tr></table></figure></li>
+<li>可以通过<code>go env</code>查看各参数的值。</li>
+</ul>
+<h2 id="项目目录解析"><a href="#项目目录解析" class="headerlink" title="项目目录解析"></a>项目目录解析</h2><p>Go的项目目录通常如下:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">├─ code  -- 代码根目录</span><br><span class="line">│  ├─ bin</span><br><span class="line">│  ├─ pkg</span><br><span class="line">│  ├─ src</span><br><span class="line">│     ├── hello</span><br><span class="line">│         ├── hello.go</span><br></pre></td></tr></table></figure>
+<ul>
 <li>bin: 存放编译后可执行的文件。</li>
 <li>pkg: 存放编译后的应用包。</li>
 <li>src: 存放应用源代码。</li>
