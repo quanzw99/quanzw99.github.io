@@ -4,7 +4,34 @@
   
     
     <entry>
-      <title>Dynamic-Programming-Patterns</title>
+      <title>Introduction of Interpreter</title>
+      <link href="/2023/07/17/Introduction-of-Interpreter/"/>
+      <url>/2023/07/17/Introduction-of-Interpreter/</url>
+      
+        <content type="html"><![CDATA[<p>本系列是阅读 &lt;&lt;<a href="https://craftinginterpreters.com/contents.html">Crafting Interpreters</a>&gt;&gt; 一书时所做的记录，这是一本讲述实现语言解释器的书，会逐步实现两个完整的解释器。本节介绍本书的第1节 - <a href="https://craftinginterpreters.com/introduction.html">Introduction</a>，讲述学习解释器的意义、本书的结构、以及分别简述了我们将要实现的解释器。</p><blockquote><p>Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us drogons can be beaten. — G.K. Chesterton </p></blockquote><h2 id="Why-Learn-This-Stuff？"><a href="#Why-Learn-This-Stuff？" class="headerlink" title="Why Learn This Stuff？"></a>Why Learn This Stuff？</h2><ol><li><p>little language 无处不在： little language 也被称为 domain-specific lanuages. 例如:配置文件场景下的json。几乎每个大型程序都会用到一些。虽然推荐的做法是复用前人的工作而非造轮子，但当没有能够满足需求的现有库时，我们仍需创造一些工具。即使复用了别人的工作，也不可避免地需要修bug和维护。</p></li><li><p>语言是很好的锻炼：实现一种语言是对编程能力的考验，代码复杂且性能至关重要。在实现的过程中，可以不断练习对数据结构和算法地掌控。</p></li><li><p>最后一个原因：当我们写下第一行代码的时候，我们觉得这是魔法，我们无法想象它是如何实现的。事实是没有魔法，不要畏难，这些都是代码，是可以靠勇敢解读的智慧。</p></li></ol><h2 id="How-the-Book-is-Organized"><a href="#How-the-Book-is-Organized" class="headerlink" title="How the Book is Organized"></a>How the Book is Organized</h2><h2 id="The-First-Interpreter"><a href="#The-First-Interpreter" class="headerlink" title="The First Interpreter"></a>The First Interpreter</h2><h2 id="The-Second-Interpreter"><a href="#The-Second-Interpreter" class="headerlink" title="The Second Interpreter"></a>The Second Interpreter</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Course </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Compiler </tag>
+            
+            <tag> Crafting-Interpreters </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Dynamic Programming Patterns</title>
       <link href="/2023/07/16/Dynamic-Programming-Patterns/"/>
       <url>/2023/07/16/Dynamic-Programming-Patterns/</url>
       
@@ -33,7 +60,7 @@
     
     
     <entry>
-      <title>Linear-List-Array</title>
+      <title>Linear List - Array</title>
       <link href="/2023/07/12/Linear-List-Array/"/>
       <url>/2023/07/12/Linear-List-Array/</url>
       
@@ -58,7 +85,7 @@
     
     
     <entry>
-      <title>Cpp-Three-core-components</title>
+      <title>Cpp Three core components</title>
       <link href="/2023/07/05/Cpp-Three-core-components/"/>
       <url>/2023/07/05/Cpp-Three-core-components/</url>
       
