@@ -1,8 +1,8 @@
+http://example.com/2023/07/19/Ray-Tracing-in-One-Weekend/
 http://example.com/2022/05/05/Tutorial/
 http://example.com/2022/05/10/GoLang%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%8C%87%E5%BC%95/
 http://example.com/2022/05/07/Work-and-study-1/
 http://example.com/2023/07/12/Linear-List-Array/
-http://example.com/2023/07/19/Ray-Tracing-in-One-Weekend/
 http://example.com/2023/07/05/Cpp-Three-core-components/
 http://example.com/2023/07/16/Dynamic-Programming-Patterns/
 http://example.com/2023/07/17/Introduction-of-Interpreter/
