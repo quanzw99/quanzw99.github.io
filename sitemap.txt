@@ -1,3 +1,4 @@
+http://example.com/2022/05/05/Tutorial/
 http://example.com/2022/05/10/GoLang%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%8C%87%E5%BC%95/
 http://example.com/2022/05/07/Work-and-study-1/
 http://example.com/2023/07/12/Linear-List-Array/
@@ -5,7 +6,6 @@ http://example.com/2023/07/19/Ray-Tracing-in-One-Weekend/
 http://example.com/2023/07/05/Cpp-Three-core-components/
 http://example.com/2023/07/16/Dynamic-Programming-Patterns/
 http://example.com/2023/07/17/Introduction-of-Interpreter/
-http://example.com/2022/05/05/Tutorial/
 http://example.com/2023/03/25/Config-for-anaconda/
 http://example.com/2023/03/17/Data-Commentary/
 http://example.com/2023/03/10/MathJax/
@@ -22,8 +22,8 @@ http://example.com/tags/Dynamic-Programming/
 http://example.com/tags/GoLang/
 http://example.com/tags/Compiler/
 http://example.com/tags/Crafting-Interpreters/
-http://example.com/tags/Data-Structure/
 http://example.com/tags/Hexo/
+http://example.com/tags/Data-Structure/
 http://example.com/tags/Graphics/
 http://example.com/tags/Vocabulary-In-Use/
 http://example.com/categories/English/
