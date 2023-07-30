@@ -164,7 +164,7 @@
 
   
   <url>
-    <loc>http://example.com/tags/Cpp-Foundamentals/</loc>
+    <loc>http://example.com/tags/Academic-Writing/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -178,7 +178,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Academic-Writing/</loc>
+    <loc>http://example.com/tags/Cpp-Foundamentals/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -271,7 +271,7 @@
 
   
   <url>
-    <loc>http://example.com/categories/Cpp/</loc>
+    <loc>http://example.com/categories/English/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -285,7 +285,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/English/</loc>
+    <loc>http://example.com/categories/Cpp/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
