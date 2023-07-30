@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>Ray Tracing in One Weekend - 3</title>
-      <link href="/2023/07/30/Ray-Tracing-in-One-Weekend-3/"/>
-      <url>/2023/07/30/Ray-Tracing-in-One-Weekend-3/</url>
-      
-        <content type="html"><![CDATA[<p>还没想好开头写啥<span id="more"></span></p><h2 id="Antialiasing"><a href="#Antialiasing" class="headerlink" title="Antialiasing"></a>Antialiasing</h2><h3 id="Some-Random-Number-Utilities"><a href="#Some-Random-Number-Utilities" class="headerlink" title="Some Random Number Utilities"></a>Some Random Number Utilities</h3><h3 id="Generating-Pixels-with-Multiple-Samples"><a href="#Generating-Pixels-with-Multiple-Samples" class="headerlink" title="Generating Pixels with Multiple Samples"></a>Generating Pixels with Multiple Samples</h3><h2 id="Diffuse-Materials"><a href="#Diffuse-Materials" class="headerlink" title="Diffuse Materials"></a>Diffuse Materials</h2><h3 id="A-Simple-Diffuse-Material"><a href="#A-Simple-Diffuse-Material" class="headerlink" title="A Simple Diffuse Material"></a>A Simple Diffuse Material</h3><h3 id="Limiting-the-Number-of-Child-Rays"><a href="#Limiting-the-Number-of-Child-Rays" class="headerlink" title="Limiting the Number of Child Rays"></a>Limiting the Number of Child Rays</h3><h3 id="Using-Gamma-Correction-for-Accurate-Color-Intensity"><a href="#Using-Gamma-Correction-for-Accurate-Color-Intensity" class="headerlink" title="Using Gamma Correction for Accurate Color Intensity"></a>Using Gamma Correction for Accurate Color Intensity</h3><h3 id="Fixing-Shadow-Acne"><a href="#Fixing-Shadow-Acne" class="headerlink" title="Fixing Shadow Acne"></a>Fixing Shadow Acne</h3><h3 id="True-Lambertian-Reflection"><a href="#True-Lambertian-Reflection" class="headerlink" title="True Lambertian Reflection"></a>True Lambertian Reflection</h3><h3 id="An-Alternative-Diffuse-Formulation"><a href="#An-Alternative-Diffuse-Formulation" class="headerlink" title="An Alternative Diffuse Formulation"></a>An Alternative Diffuse Formulation</h3><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://github.com/RayTracing/raytracing.github.io">Ray Tracing in One Weekend Book Series</a></li><li><a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">Ray Tracing in One Weekend</a></li><li><a href="https://zhuanlan.zhihu.com/p/128582904">Ray Tracing in One Weekend V3.0中文翻译（上）</a></li><li><a href="https://zhuanlan.zhihu.com/p/128685960">Ray Tracing in One Weekend V3.0中文翻译（下）</a></li></ul>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Graphics </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Ray Tracing in One Weekend - 2</title>
       <link href="/2023/07/25/Ray-Tracing-in-One-Weekend-2/"/>
       <url>/2023/07/25/Ray-Tracing-in-One-Weekend-2/</url>

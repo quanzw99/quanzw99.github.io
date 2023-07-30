@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/07/30/Ray-Tracing-in-One-Weekend-3/</loc>
-    
-    <lastmod>2023-07-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/2023/07/25/Ray-Tracing-in-One-Weekend-2/</loc>
     
     <lastmod>2023-07-30</lastmod>
@@ -180,14 +171,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Cpp-Foundamentals/</loc>
+    <loc>http://example.com/tags/Python/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Python/</loc>
+    <loc>http://example.com/tags/Cpp-Foundamentals/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -236,13 +227,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Data-Structure/</loc>
-    <lastmod>2023-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Hexo/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -271,6 +255,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/Data-Structure/</loc>
+    <lastmod>2023-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/Vocabulary-In-Use/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -287,14 +278,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Cpp/</loc>
+    <loc>http://example.com/categories/Tools/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Tools/</loc>
+    <loc>http://example.com/categories/Cpp/</loc>
     <lastmod>2023-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
