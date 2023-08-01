@@ -40,12 +40,12 @@
     <link href="http://example.com/2023/07/24/Paper-Reading-1/"/>
     <id>http://example.com/2023/07/24/Paper-Reading-1/</id>
     <published>2023-07-24T20:48:41.000Z</published>
-    <updated>2023-07-24T23:41:12.291Z</updated>
+    <updated>2023-07-30T06:17:02.262Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://people.ece.ubc.ca/~aamodt/projects/graphics/">Tor Aamodt的主页</a>描述了研究<code>Graphics Hardware</code>的动机，并在<a href="https://people.ece.ubc.ca/~aamodt/publications/">Publication页面</a>分享了本文的<a href="https://github.com/ubc-aamodt-group/ray-intersection-predictor">code</a>和<a href="http://www.lufei.ca/files/MicroVideo.mp4">video</a>。<span id="more"></span></p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://people.ece.ubc.ca/~aamodt/projects/graphics/">Tor Aamodt的主页</a>描述了研究<code>Graphics Hardware</code>的动机，并在<a href="https://people.ece.ubc.ca/~aamodt/publications/">Publication页面</a>分享了<a href="https://people.ece.ubc.ca/~aamodt/publications/papers/liu.micro2021.pdf">本文</a>的<a href="https://github.com/ubc-aamodt-group/ray-intersection-predictor">code</a>和<a href="http://www.lufei.ca/files/MicroVideo.mp4">video</a>。<span id="more"></span></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/projects/graphics/&quot;&gt;Tor Aamodt的主页&lt;/a&gt;描述了研究&lt;code&gt;Graphics Hardware&lt;/code&gt;的动机，并在&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/publications/&quot;&gt;Publication页面&lt;/a&gt;分享了本文的&lt;a href=&quot;https://github.com/ubc-aamodt-group/ray-intersection-predictor&quot;&gt;code&lt;/a&gt;和&lt;a href=&quot;http://www.lufei.ca/files/MicroVideo.mp4&quot;&gt;video&lt;/a&gt;。</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/projects/graphics/&quot;&gt;Tor Aamodt的主页&lt;/a&gt;描述了研究&lt;code&gt;Graphics Hardware&lt;/code&gt;的动机，并在&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/publications/&quot;&gt;Publication页面&lt;/a&gt;分享了&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/publications/papers/liu.micro2021.pdf&quot;&gt;本文&lt;/a&gt;的&lt;a href=&quot;https://github.com/ubc-aamodt-group/ray-intersection-predictor&quot;&gt;code&lt;/a&gt;和&lt;a href=&quot;http://www.lufei.ca/files/MicroVideo.mp4&quot;&gt;video&lt;/a&gt;。</summary>
     
     
     
