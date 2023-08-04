@@ -23,9 +23,9 @@ http://example.com/tags/Leetcode/
 http://example.com/tags/Algorithm/
 http://example.com/tags/Dynamic-Programming/
 http://example.com/tags/GoLang/
-http://example.com/tags/Data-Structure/
 http://example.com/tags/Compiler/
 http://example.com/tags/Crafting-Interpreters/
+http://example.com/tags/Data-Structure/
 http://example.com/tags/Hexo/
 http://example.com/tags/Methodology/
 http://example.com/tags/Graphics/
