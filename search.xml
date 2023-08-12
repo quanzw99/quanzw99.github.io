@@ -4,6 +4,83 @@
   
     
     <entry>
+      <title>Index for Leetcode</title>
+      <link href="/2023/08/12/Index-for-Leetcode/"/>
+      <url>/2023/08/12/Index-for-Leetcode/</url>
+      
+        <content type="html"><![CDATA[<p>Recording some <a href="https://leetcode.com/problemset/all/">Leetcode</a> tricks and solutions for reviewing and summarizing purposes.<br><span id="more"></span></p><h2 id="Trick"><a href="#Trick" class="headerlink" title="Trick"></a>Trick</h2><h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Index </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Leetcode 1071 - Greatest Common Divisor of Strings</title>
+      <link href="/2023/08/12/Leetcode-1071-Greatest-Common-Divisor-of-Strings/"/>
+      <url>/2023/08/12/Leetcode-1071-Greatest-Common-Divisor-of-Strings/</url>
+      
+        <content type="html"><![CDATA[<p>Solution for Greatest Common Divisor of Strings.<br><span id="more"></span></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Cpp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Leetcode </tag>
+            
+            <tag> Algorithm </tag>
+            
+            <tag> Data-Structure </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Common Syntax in STL</title>
+      <link href="/2023/08/12/Common-Syntax-in-STL/"/>
+      <url>/2023/08/12/Common-Syntax-in-STL/</url>
+      
+        <content type="html"><![CDATA[<p>When solving problems on <code>Leetcode</code>, we often utilize data structures from the <code>STL</code>. Here, I document some commonly used syntax.<br><span id="more"></span></p><h2 id="string"><a href="#string" class="headerlink" title="string"></a>string</h2><ol><li>substring extraction<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// <span class="keyword">return</span> s[<span class="keyword">pos</span>, <span class="keyword">pos</span>+n)</span><br><span class="line">s.substr(<span class="keyword">pos</span>, n)</span><br><span class="line"></span><br><span class="line">// <span class="keyword">return</span> s[<span class="keyword">pos</span>, s.size())</span><br><span class="line">s.substr(<span class="keyword">pos</span>)</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Cpp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Leetcode </tag>
+            
+            <tag> Algorithm </tag>
+            
+            <tag> Data-Structure </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Ray Tracing in One Weekend - 2</title>
       <link href="/2023/07/25/Ray-Tracing-in-One-Weekend-2/"/>
       <url>/2023/07/25/Ray-Tracing-in-One-Weekend-2/</url>
