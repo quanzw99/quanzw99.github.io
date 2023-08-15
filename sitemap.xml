@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/07/24/Paper-Reading-1/</loc>
+    <loc>http://example.com/2023/08/12/Index-for-Leetcode/</loc>
     
     <lastmod>2023-08-15</lastmod>
     
@@ -20,9 +20,9 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/08/12/Index-for-Leetcode/</loc>
+    <loc>http://example.com/2023/07/24/Paper-Reading-1/</loc>
     
-    <lastmod>2023-08-12</lastmod>
+    <lastmod>2023-08-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://example.com/tags/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     

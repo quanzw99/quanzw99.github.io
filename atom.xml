@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-08-15T08:39:25.045Z</updated>
+  <updated>2023-08-15T08:42:04.479Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Index-for-Graphics-Hardware</title>
+    <title>Index for Graphics Hardware</title>
     <link href="http://example.com/2023/08/15/Index-for-Graphics-Hardware/"/>
     <id>http://example.com/2023/08/15/Index-for-Graphics-Hardware/</id>
     <published>2023-08-15T08:24:09.000Z</published>
-    <updated>2023-08-15T08:39:25.045Z</updated>
+    <updated>2023-08-15T08:42:04.479Z</updated>
     
     <content type="html"><![CDATA[<p>Ray tracing enables the creation of more realistic rendering effects, and recent GPUs have integrated specialized hardware accelerator units designed for ray tracing. Below is a compilation of my notes from studying in this field.<br><span id="more"></span></p><h2 id="Graphics"><a href="#Graphics" class="headerlink" title="Graphics"></a>Graphics</h2><ol><li><a href="https://quanzw99.github.io/2023/07/19/Ray-Tracing-in-One-Weekend-1/">Ray Tracing in One Weekend - 1</a></li><li><a href="https://quanzw99.github.io/2023/07/25/Ray-Tracing-in-One-Weekend-2/">Ray Tracing in One Weekend - 2</a></li></ol><h2 id="PaperReading"><a href="#PaperReading" class="headerlink" title="PaperReading"></a>PaperReading</h2><ol><li><a href="https://quanzw99.github.io/2023/07/24/Paper-Reading-1/">Intersection Prediction for Accelerated GPU Ray Tracing</a></li></ol>]]></content>
     
@@ -40,7 +40,7 @@
     <link href="http://example.com/2023/08/12/Index-for-Leetcode/"/>
     <id>http://example.com/2023/08/12/Index-for-Leetcode/</id>
     <published>2023-08-12T06:08:52.000Z</published>
-    <updated>2023-08-12T22:54:31.783Z</updated>
+    <updated>2023-08-15T08:41:10.408Z</updated>
     
     <content type="html"><![CDATA[<p>Recording some <a href="https://leetcode.com/problemset/all/">Leetcode</a> tricks and solutions for reviewing and summarizing purposes.<br><span id="more"></span></p><h2 id="Trick"><a href="#Trick" class="headerlink" title="Trick"></a>Trick</h2><ol><li><a href="https://quanzw99.github.io/2023/08/12/Common-Syntax-in-STL/">Common Syntax in STL</a></li></ol><h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><ol><li><a href="https://quanzw99.github.io/2023/08/12/Leetcode-1071-Greatest-Common-Divisor-of-Strings/">Leetcode 1071 - Greatest Common Divisor of Strings</a></li></ol>]]></content>
     
