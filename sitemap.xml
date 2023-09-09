@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/09/09/Paper-Reading-2/</loc>
+    
+    <lastmod>2023-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/08/12/Leetcode-1071-Greatest-Common-Divisor-of-Strings/</loc>
+    
+    <lastmod>2023-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/09/05/Install-GPGPU-Sim/</loc>
     
     <lastmod>2023-09-09</lastmod>
@@ -41,15 +59,6 @@
     <loc>http://example.com/2023/08/12/Common-Syntax-in-STL/</loc>
     
     <lastmod>2023-08-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2023/08/12/Leetcode-1071-Greatest-Common-Divisor-of-Strings/</loc>
-    
-    <lastmod>2023-08-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -218,6 +227,13 @@
 
   
   <url>
+    <loc>http://example.com/tags/Academic-Writing/</loc>
+    <lastmod>2023-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/Leetcode/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -233,13 +249,6 @@
   
   <url>
     <loc>http://example.com/tags/Data-Structure/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Academic-Writing/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -274,13 +283,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Ubuntu/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Compiler/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -289,6 +291,13 @@
   
   <url>
     <loc>http://example.com/tags/Crafting-Interpreters/</loc>
+    <lastmod>2023-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Ubuntu/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -309,6 +318,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/Architecture/</loc>
+    <lastmod>2023-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/Graphics/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -322,24 +338,17 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://example.com/tags/Architecture/</loc>
-    <lastmod>2023-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>http://example.com/categories/CS/</loc>
+    <loc>http://example.com/categories/English/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/English/</loc>
+    <loc>http://example.com/categories/CS/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

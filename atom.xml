@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-09T03:58:56.603Z</updated>
+  <updated>2023-09-09T04:10:32.734Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Paper Reading 2 - Vulkan-Sim:A GPU Archtecture Simulator for Ray Tracing</title>
+    <link href="http://example.com/2023/09/09/Paper-Reading-2/"/>
+    <id>http://example.com/2023/09/09/Paper-Reading-2/</id>
+    <published>2023-09-09T04:00:03.000Z</published>
+    <updated>2023-09-09T04:10:32.734Z</updated>
+    
+    <content type="html"><![CDATA[<p>TODO…<span id="more"></span></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;TODO…</summary>
+    
+    
+    
+    <category term="Reading" scheme="http://example.com/categories/Reading/"/>
+    
+    
+    <category term="Architecture" scheme="http://example.com/tags/Architecture/"/>
+    
+    <category term="Graphics" scheme="http://example.com/tags/Graphics/"/>
+    
+  </entry>
   
   <entry>
     <title>Install GPGPU-Sim</title>
@@ -97,9 +120,9 @@
     <link href="http://example.com/2023/08/12/Leetcode-1071-Greatest-Common-Divisor-of-Strings/"/>
     <id>http://example.com/2023/08/12/Leetcode-1071-Greatest-Common-Divisor-of-Strings/</id>
     <published>2023-08-12T06:07:14.000Z</published>
-    <updated>2023-08-16T10:49:50.387Z</updated>
+    <updated>2023-09-09T04:10:08.267Z</updated>
     
-    <content type="html"><![CDATA[<p>Solution for <a href="https://leetcode.com/problems/greatest-common-divisor-of-strings/">Greatest Common Divisor of Strings</a>.<br><span id="more"></span></p><p>At first, I used a pretty brute-force approach, and the code is as follows:</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">bool</span> <span class="title">check</span>(<span class="params"><span class="built_in">string</span> s, <span class="built_in">string</span> ans</span>)</span> &#123;</span><br><span class="line">        <span class="built_in">int</span> lens = s.size();</span><br><span class="line">        <span class="built_in">int</span> lenans = ans.size();</span><br><span class="line">        <span class="keyword">if</span>(lens % lenans) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; lens/lenans; i++) &#123;</span><br><span class="line">            <span class="built_in">int</span> start = i * lenans;</span><br><span class="line">            <span class="keyword">if</span>(s.substr(start, lenans) != ans)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">gcdOfStrings</span>(<span class="params"><span class="built_in">string</span> str1, <span class="built_in">string</span> str2</span>)</span> &#123;</span><br><span class="line">        <span class="built_in">string</span> ans = <span class="string">&quot;&quot;</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="comment">// ensuring that str1 is always the shorter one</span></span><br><span class="line">        <span class="keyword">if</span> (str1.size() &gt; str2.size()) &#123;</span><br><span class="line">            <span class="built_in">string</span> tmp = str1;</span><br><span class="line">            str1 = str2;</span><br><span class="line">            str2 = tmp;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="built_in">int</span> i = <span class="number">1</span>; i &lt;= str1.size(); i++) &#123;</span><br><span class="line">            <span class="built_in">string</span> tmp = str1.substr(<span class="number">0</span>, i);</span><br><span class="line">            <span class="keyword">if</span>(check(str1, tmp) &amp;&amp; check(str2, tmp)) &#123;</span><br><span class="line">                ans = tmp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>This approach performed poorly in terms of both rumtime and memory usage. Subsequently, I found a rather tricky approach.</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://leetcode.com/problems/greatest-common-divisor-of-strings/solutions/3124940/c-one-line-beats-100-runtime-explanation/">c-one-line-beats-100-runtime-explanation</a></li><li><a href="https://leetcode.cn/problems/greatest-common-divisor-of-strings/solutions/143956/zi-fu-chuan-de-zui-da-gong-yin-zi-by-leetcode-solu/">zi-fu-chuan-de-zui-da-gong-yin-zi-by-leetcode-solu</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>Solution for <a href="https://leetcode.com/problems/greatest-common-divisor-of-strings/">Greatest Common Divisor of Strings</a>.<br><span id="more"></span></p><p>At first, I used a pretty brute-force approach, and the code is as follows:</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="built_in">bool</span> <span class="title">check</span>(<span class="params"><span class="built_in">string</span> s, <span class="built_in">string</span> ans</span>)</span> &#123;</span><br><span class="line">        <span class="built_in">int</span> lens = s.size();</span><br><span class="line">        <span class="built_in">int</span> lenans = ans.size();</span><br><span class="line">        <span class="keyword">if</span>(lens % lenans) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; lens/lenans; i++) &#123;</span><br><span class="line">            <span class="built_in">int</span> start = i * lenans;</span><br><span class="line">            <span class="keyword">if</span>(s.substr(start, lenans) != ans)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">gcdOfStrings</span>(<span class="params"><span class="built_in">string</span> str1, <span class="built_in">string</span> str2</span>)</span> &#123;</span><br><span class="line">        <span class="built_in">string</span> ans = <span class="string">&quot;&quot;</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="comment">// ensuring that str1 is always the shorter one</span></span><br><span class="line">        <span class="keyword">if</span> (str1.size() &gt; str2.size()) &#123;</span><br><span class="line">            <span class="built_in">string</span> tmp = str1;</span><br><span class="line">            str1 = str2;</span><br><span class="line">            str2 = tmp;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="built_in">int</span> i = <span class="number">1</span>; i &lt;= str1.size(); i++) &#123;</span><br><span class="line">            <span class="built_in">string</span> tmp = str1.substr(<span class="number">0</span>, i);</span><br><span class="line">            <span class="keyword">if</span>(check(str1, tmp) &amp;&amp; check(str2, tmp)) &#123;</span><br><span class="line">                ans = tmp;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>This approach performed poorly in terms of both rumtime and memory usage. Subsequently, I found a rather tricky approach.</p><p>TODO…<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://leetcode.com/problems/greatest-common-divisor-of-strings/solutions/3124940/c-one-line-beats-100-runtime-explanation/">c-one-line-beats-100-runtime-explanation</a></li><li><a href="https://leetcode.cn/problems/greatest-common-divisor-of-strings/solutions/143956/zi-fu-chuan-de-zui-da-gong-yin-zi-by-leetcode-solu/">zi-fu-chuan-de-zui-da-gong-yin-zi-by-leetcode-solu</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;Solution for &lt;a href=&quot;https://leetcode.com/problems/greatest-common-divisor-of-strings/&quot;&gt;Greatest Common Divisor of Strings&lt;/a&gt;.&lt;br&gt;</summary>
@@ -178,9 +201,9 @@
     <category term="Reading" scheme="http://example.com/categories/Reading/"/>
     
     
-    <category term="Graphics" scheme="http://example.com/tags/Graphics/"/>
-    
     <category term="Architecture" scheme="http://example.com/tags/Architecture/"/>
+    
+    <category term="Graphics" scheme="http://example.com/tags/Graphics/"/>
     
   </entry>
   
@@ -443,27 +466,6 @@
     
     
     <category term="GoLang" scheme="http://example.com/tags/GoLang/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Work and study 1</title>
-    <link href="http://example.com/2022/05/07/Work-and-study-1/"/>
-    <id>http://example.com/2022/05/07/Work-and-study-1/</id>
-    <published>2022-05-08T03:28:44.000Z</published>
-    <updated>2023-07-20T17:06:30.467Z</updated>
-    
-    <content type="html"><![CDATA[<p>From <code>Vocabulary In Use</code> - Chapter1: Work and study<br><span id="more"></span></p><h2 id="1-Cramming-for-success-study-and-academic-work"><a href="#1-Cramming-for-success-study-and-academic-work" class="headerlink" title="1. Cramming for success: study and academic work"></a>1. Cramming for success: study and academic work</h2><h3 id="A-Study-and-exams"><a href="#A-Study-and-exams" class="headerlink" title="A: Study and exams"></a>A: Study and exams</h3><p>Before an exam, some students <strong>cram<sup>1</sup></strong> for it. Even if you’re a <strong>genius<sup>2</sup></strong>, you’ll have to <strong>do some revision</strong>. </p><p>If the exam happens every year, you can <strong>revise</strong> by looking at <strong>past papers<sup>3</sup></strong>.</p><p>Some things can be <strong>memorised</strong> or <strong>learnt (off) by heart</strong>.<br>But <strong>rote-learning<sup>4</sup></strong> is not sufficient for most subjects. </p><p>It is also possible to use <strong>mnemonics<sup>5</sup></strong>.</p><p>However, all things considered, the best idea is to <strong>bury yourself in your books<sup>6</sup></strong> and to study <strong>intensively<sup>7</sup></strong> until you <strong>know the subject inside out<sup>8</sup></strong> </p><ol><li>cram: study in a very concentrated way for a short time</li><li>genius: an exceptionally clever person</li><li>past papers: exam papers from previous years</li><li>rote-learning: learning purely by repetition</li><li>mnemonics: tricks that help you remember something.</li><li>bury yourself in your books: spend the maximum time studying</li><li>intensively: in a very focused way</li><li>know the subject inside out: know it completely</li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;From &lt;code&gt;Vocabulary In Use&lt;/code&gt; - Chapter1: Work and study&lt;br&gt;</summary>
-    
-    
-    
-    <category term="English" scheme="http://example.com/categories/English/"/>
-    
-    
-    <category term="Vocabulary-In-Use" scheme="http://example.com/tags/Vocabulary-In-Use/"/>
     
   </entry>
   
