@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-12T05:11:31.540Z</updated>
+  <updated>2023-09-13T01:55:55.158Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Course Review AI - Problem sloving by searching</title>
+    <link href="http://example.com/2023/09/12/Course-Review-AI-Problem-sloving-by-searching/"/>
+    <id>http://example.com/2023/09/12/Course-Review-AI-Problem-sloving-by-searching/</id>
+    <published>2023-09-13T00:08:25.000Z</published>
+    <updated>2023-09-13T01:55:55.158Z</updated>
+    
+    <content type="html"><![CDATA[<p>一些问题是有直接的解决方案的，我们可以应用公式或者遵照一个标准的流程来解决。而一些更有趣的问题没有这样的解决方案，通常需要<code>search</code>来解决。<span id="more"></span></p><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><p>A search problem is defined by a search space and a goal condition.</p><p>A search space is set of objects among which we search for the solution. 搜索空间是指问题中所有可能的状态或解决方案的集合；<br>A goal condition means the characteristics of the object we want to find in the search space. 目标条件用来描述我们在搜索空间中寻找的目标的特征。</p><p>Search(process) is the process of exploration of the search space.</p><p>The efficiency of the search depends on:</p><ul><li>The search space and its size;</li><li>Method used to explore the search space;</li><li>Condition to test the satisfaction of the search objective.</li></ul><h2 id="Formulation-of-a-search-problem"><a href="#Formulation-of-a-search-problem" class="headerlink" title="Formulation of a search problem"></a>Formulation of a search problem</h2><h3 id="Graph-search-problem"><a href="#Graph-search-problem" class="headerlink" title="Graph search problem"></a>Graph search problem</h3><p>A search problem can be often represented with a graph where:</p><p>TODO…</p><h2 id="Search-methods"><a href="#Search-methods" class="headerlink" title="Search methods"></a>Search methods</h2>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;一些问题是有直接的解决方案的，我们可以应用公式或者遵照一个标准的流程来解决。而一些更有趣的问题没有这样的解决方案，通常需要&lt;code&gt;search&lt;/code&gt;来解决。</summary>
+    
+    
+    
+    <category term="CS" scheme="http://example.com/categories/CS/"/>
+    
+    
+    <category term="Foundation-of-AI" scheme="http://example.com/tags/Foundation-of-AI/"/>
+    
+  </entry>
   
   <entry>
     <title>Paper Reading 2 - Vulkan-Sim:A GPU Archtecture Simulator for Ray Tracing</title>
@@ -44,7 +65,7 @@
     <link href="http://example.com/2023/09/05/Install-GPGPU-Sim/"/>
     <id>http://example.com/2023/09/05/Install-GPGPU-Sim/</id>
     <published>2023-09-06T03:58:27.000Z</published>
-    <updated>2023-09-09T03:58:56.603Z</updated>
+    <updated>2023-09-13T00:06:35.511Z</updated>
     
     <content type="html"><![CDATA[<p>本文记录安装<code>GPGPU-Sim</code>中踩到的坑，大部分与版本兼容相关。以及对<code>GPGPU-sim</code>有初步的了解。<span id="more"></span></p><p>TODO…</p><p>原文是<code>python-matplotlib</code>，需要换成<code>python3-matplotlib</code><br>sudo apt install python3-matplotlib</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://zhuanlan.zhihu.com/p/369673760">Ubuntu 20.04 下安装运行 GPGPU-Sim</a></li></ol>]]></content>
     
@@ -53,6 +74,10 @@
     
     
     
+    <category term="Tools" scheme="http://example.com/categories/Tools/"/>
+    
+    
+    <category term="Architecture" scheme="http://example.com/tags/Architecture/"/>
     
   </entry>
   
@@ -445,27 +470,6 @@
     
     
     <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GoLang环境安装指引</title>
-    <link href="http://example.com/2022/05/10/GoLang%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%8C%87%E5%BC%95/"/>
-    <id>http://example.com/2022/05/10/GoLang%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%8C%87%E5%BC%95/</id>
-    <published>2022-05-10T22:35:31.000Z</published>
-    <updated>2023-07-20T17:07:09.833Z</updated>
-    
-    <content type="html"><![CDATA[<p>工欲善其事，必先利其器。<br>在开始学习GoLang之前，首要任务是配置好用的开发环境。<br><span id="more"></span></p><h2 id="下载安装Go语言"><a href="#下载安装Go语言" class="headerlink" title="下载安装Go语言"></a>下载安装Go语言</h2><h3 id="下载安装包"><a href="#下载安装包" class="headerlink" title="下载安装包"></a>下载安装包</h3><p>下载地址：<a href="https://golang.google.cn/dl/">https://golang.google.cn/dl/</a>;<br>按照提示一路next即可。</p><h3 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h3><p>使用<code>echo $0</code>查看命令行使用的是bash还是zsh;<br>bash需要求改～/.bashrc; zsh则需要修改～/.zshrc。<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">//</span> 打开</span><br><span class="line">vi ~/.zshrc</span><br><span class="line"></span><br><span class="line"><span class="regexp">//</span> 新增</span><br><span class="line">export GOROOT=<span class="regexp">/usr/</span>local/go</span><br><span class="line">export GOPATH=<span class="regexp">/Users/u</span>sername/go</span><br><span class="line">export PATH=<span class="variable">$PATH</span>:<span class="variable">$GOPATH</span>/bin</span><br><span class="line"></span><br><span class="line"><span class="regexp">//</span> 生效</span><br><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure></p><ul><li>GOROOT告诉操作系统Go的安装目录；以便于后续执行<code>go build</code>等命令时操作系统找到Go的可执行文件。</li><li>GOPATH可以理解为源码存放的工作目录。</li><li>最后因为<code>go install</code>会将生成的可执行文件移动到$GOPATH/bin下去，配置此路径可使其全局使用。</li><li>可以通过<code>go env</code>查看各参数的值。</li></ul><h2 id="项目目录解析"><a href="#项目目录解析" class="headerlink" title="项目目录解析"></a>项目目录解析</h2><p>Go的项目目录通常如下:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">├─ <span class="selector-tag">code</span>  -- 代码根目录</span><br><span class="line">│  ├─ bin</span><br><span class="line">│  ├─ pkg</span><br><span class="line">│  ├─ <span class="attribute">src</span></span><br><span class="line">│     ├── hello</span><br><span class="line">│         ├── hello<span class="selector-class">.go</span></span><br></pre></td></tr></table></figure></p><ul><li>bin: 存放编译后可执行的文件。</li><li>pkg: 存放编译后的应用包。</li><li>src: 存放应用源代码。</li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;工欲善其事，必先利其器。&lt;br&gt;在开始学习GoLang之前，首要任务是配置好用的开发环境。&lt;br&gt;</summary>
-    
-    
-    
-    <category term="Tools" scheme="http://example.com/categories/Tools/"/>
-    
-    
-    <category term="GoLang" scheme="http://example.com/tags/GoLang/"/>
     
   </entry>
   

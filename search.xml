@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Course Review AI - Problem sloving by searching</title>
+      <link href="/2023/09/12/Course-Review-AI-Problem-sloving-by-searching/"/>
+      <url>/2023/09/12/Course-Review-AI-Problem-sloving-by-searching/</url>
+      
+        <content type="html"><![CDATA[<p>一些问题是有直接的解决方案的，我们可以应用公式或者遵照一个标准的流程来解决。而一些更有趣的问题没有这样的解决方案，通常需要<code>search</code>来解决。<span id="more"></span></p><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><p>A search problem is defined by a search space and a goal condition.</p><p>A search space is set of objects among which we search for the solution. 搜索空间是指问题中所有可能的状态或解决方案的集合；<br>A goal condition means the characteristics of the object we want to find in the search space. 目标条件用来描述我们在搜索空间中寻找的目标的特征。</p><p>Search(process) is the process of exploration of the search space.</p><p>The efficiency of the search depends on:</p><ul><li>The search space and its size;</li><li>Method used to explore the search space;</li><li>Condition to test the satisfaction of the search objective.</li></ul><h2 id="Formulation-of-a-search-problem"><a href="#Formulation-of-a-search-problem" class="headerlink" title="Formulation of a search problem"></a>Formulation of a search problem</h2><h3 id="Graph-search-problem"><a href="#Graph-search-problem" class="headerlink" title="Graph search problem"></a>Graph search problem</h3><p>A search problem can be often represented with a graph where:</p><p>TODO…</p><h2 id="Search-methods"><a href="#Search-methods" class="headerlink" title="Search methods"></a>Search methods</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Foundation-of-AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Paper Reading 2 - Vulkan-Sim:A GPU Archtecture Simulator for Ray Tracing</title>
       <link href="/2023/09/09/Paper-Reading-2/"/>
       <url>/2023/09/09/Paper-Reading-2/</url>
@@ -38,6 +63,18 @@
         <content type="html"><![CDATA[<p>本文记录安装<code>GPGPU-Sim</code>中踩到的坑，大部分与版本兼容相关。以及对<code>GPGPU-sim</code>有初步的了解。<span id="more"></span></p><p>TODO…</p><p>原文是<code>python-matplotlib</code>，需要换成<code>python3-matplotlib</code><br>sudo apt install python3-matplotlib</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol><li><a href="https://zhuanlan.zhihu.com/p/369673760">Ubuntu 20.04 下安装运行 GPGPU-Sim</a></li></ol>]]></content>
       
       
+      <categories>
+          
+          <category> Tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Architecture </tag>
+            
+        </tags>
       
     </entry>
     
