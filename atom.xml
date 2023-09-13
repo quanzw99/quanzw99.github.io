@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-09T04:10:32.734Z</updated>
+  <updated>2023-09-12T05:11:31.540Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,12 +21,12 @@
     <link href="http://example.com/2023/09/09/Paper-Reading-2/"/>
     <id>http://example.com/2023/09/09/Paper-Reading-2/</id>
     <published>2023-09-09T04:00:03.000Z</published>
-    <updated>2023-09-09T04:10:32.734Z</updated>
+    <updated>2023-09-12T05:11:31.540Z</updated>
     
-    <content type="html"><![CDATA[<p>TODO…<span id="more"></span></p>]]></content>
+    <content type="html"><![CDATA[<p>这篇博客记录阅读<a href="https://people.ece.ubc.ca/~aamodt/publications/papers/saed.micro2022.pdf">Vulkan-Sim: A GPU Architecture Simulator for Ray Tracing</a>时的笔记。主要集中于对名词的理解，以及原文的框架结构，将忽略部分细节。原文对应的<a href="https://people.ece.ubc.ca/~aamodt/publications/papers/vulkan-sim-micro2022.mp4">video</a>和<a href="https://github.com/ubc-aamodt-group/vulkan-sim">code</a>可以在<a href="https://people.ece.ubc.ca/~aamodt/publications/">Tor Aamodt</a>的个人主页找到。<span id="more"></span></p><h2 id="NOUN-DEFINITION"><a href="#NOUN-DEFINITION" class="headerlink" title="NOUN DEFINITION"></a>NOUN DEFINITION</h2><ol><li>hh</li></ol><h2 id="SECTION-SUMMARY"><a href="#SECTION-SUMMARY" class="headerlink" title="SECTION SUMMARY"></a>SECTION SUMMARY</h2><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><h3 id="Background"><a href="#Background" class="headerlink" title="Background"></a>Background</h3><h3 id="Simulating-vulkan-ray-tracing"><a href="#Simulating-vulkan-ray-tracing" class="headerlink" title="Simulating vulkan ray tracing"></a>Simulating vulkan ray tracing</h3><h3 id="Case-studies"><a href="#Case-studies" class="headerlink" title="Case studies"></a>Case studies</h3><h3 id="Methodology"><a href="#Methodology" class="headerlink" title="Methodology"></a>Methodology</h3><h3 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h3><h3 id="Related-work"><a href="#Related-work" class="headerlink" title="Related work"></a>Related work</h3><h3 id="Conclusion-and-future-work"><a href="#Conclusion-and-future-work" class="headerlink" title="Conclusion and future work"></a>Conclusion and future work</h3><h2 id="FRAMEWORK-STRUCTURE"><a href="#FRAMEWORK-STRUCTURE" class="headerlink" title="FRAMEWORK STRUCTURE"></a>FRAMEWORK STRUCTURE</h2><h3 id="Situation"><a href="#Situation" class="headerlink" title="Situation"></a>Situation</h3><h3 id="Task"><a href="#Task" class="headerlink" title="Task"></a>Task</h3><h3 id="Action"><a href="#Action" class="headerlink" title="Action"></a>Action</h3><h3 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h3>]]></content>
     
     
-    <summary type="html">&lt;p&gt;TODO…</summary>
+    <summary type="html">&lt;p&gt;这篇博客记录阅读&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/publications/papers/saed.micro2022.pdf&quot;&gt;Vulkan-Sim: A GPU Architecture Simulator for Ray Tracing&lt;/a&gt;时的笔记。主要集中于对名词的理解，以及原文的框架结构，将忽略部分细节。原文对应的&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/publications/papers/vulkan-sim-micro2022.mp4&quot;&gt;video&lt;/a&gt;和&lt;a href=&quot;https://github.com/ubc-aamodt-group/vulkan-sim&quot;&gt;code&lt;/a&gt;可以在&lt;a href=&quot;https://people.ece.ubc.ca/~aamodt/publications/&quot;&gt;Tor Aamodt&lt;/a&gt;的个人主页找到。</summary>
     
     
     
