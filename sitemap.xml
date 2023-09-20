@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://example.com/tags/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -306,6 +306,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/Ubuntu/</loc>
+    <lastmod>2023-09-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/Compiler/</loc>
     <lastmod>2023-09-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -314,13 +321,6 @@
   
   <url>
     <loc>http://example.com/tags/Crafting-Interpreters/</loc>
-    <lastmod>2023-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Ubuntu/</loc>
     <lastmod>2023-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
