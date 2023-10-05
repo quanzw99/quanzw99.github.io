@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Leetcode-887-Egg-Drop</title>
+      <link href="/2023/10/02/Leetcode-887-Egg-Drop/"/>
+      <url>/2023/10/02/Leetcode-887-Egg-Drop/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://leetcode.cn/problems/super-egg-drop/description/">problem leetcode link</a></li><li><a href="https://leetcode.cn/problems/super-egg-drop/solutions/44427/ji-ben-dong-tai-gui-hua-jie-fa-by-labuladong/">dp + binary search</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> CS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Leetcode </tag>
+            
+            <tag> Algorithm </tag>
+            
+            <tag> Dynamic-Programming </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Course Review AI - Problem sloving by searching</title>
       <link href="/2023/09/12/Course-Review-AI-Problem-sloving-by-searching/"/>
       <url>/2023/09/12/Course-Review-AI-Problem-sloving-by-searching/</url>
@@ -323,7 +352,7 @@
       <link href="/2023/07/16/Dynamic-Programming-Patterns/"/>
       <url>/2023/07/16/Dynamic-Programming-Patterns/</url>
       
-        <content type="html"><![CDATA[<p>本节是学习<a href="https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns">Leetcode Discuss中关于动态规划规律的总结</a>时所做的记录。原文作者将动态规划分为五类：<em>Minimum(Maximum) Path to Reach a Target</em>, <em>Distinct Ways</em>, <em>Merging Intervals</em>, <em>DP on Strings</em>, <em>Decision Making</em>。除了每个分类都有对应的讲解和例题外，还给出了对应练习题的list，共52题。</p><h2 id="Minimum-Maximum-Path-to-Reach-a-Target"><a href="#Minimum-Maximum-Path-to-Reach-a-Target" class="headerlink" title="Minimum(Maximum) Path to Reach a Target"></a>Minimum(Maximum) Path to Reach a Target</h2><p><a href="https://leetcode.com/list/55ac4kuc/">Minimum(Maximum) Path to Reach a Target</a></p><h2 id="Distinct-Ways"><a href="#Distinct-Ways" class="headerlink" title="Distinct Ways"></a>Distinct Ways</h2><p><a href="https://leetcode.com/list/55ajm50i/">Distinct Ways</a></p><h2 id="Merging-Intervals"><a href="#Merging-Intervals" class="headerlink" title="Merging Intervals"></a>Merging Intervals</h2><p><a href="https://leetcode.com/list/55aj8s16/">Merging Intervals</a></p><h2 id="DP-on-Strings"><a href="#DP-on-Strings" class="headerlink" title="DP on Strings"></a>DP on Strings</h2><p><a href="https://leetcode.com/list/55afh7m7/">DP on Strings</a></p><h2 id="Decision-Making"><a href="#Decision-Making" class="headerlink" title="Decision Making"></a>Decision Making</h2><p><a href="https://leetcode.com/list/55af7bu7/">Decision Making</a></p>]]></content>
+        <content type="html"><![CDATA[<p>本节是学习<a href="https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns">Leetcode Discuss中关于动态规划规律的总结</a>时所做的记录。原文作者将动态规划分为五类：<em>Minimum(Maximum) Path to Reach a Target</em>, <em>Distinct Ways</em>, <em>Merging Intervals</em>, <em>DP on Strings</em>, <em>Decision Making</em>。除了每个分类都有对应的讲解和例题外，还给出了对应练习题的list，共52题。</p><h2 id="Minimum-Maximum-Path-to-Reach-a-Target"><a href="#Minimum-Maximum-Path-to-Reach-a-Target" class="headerlink" title="Minimum(Maximum) Path to Reach a Target"></a>Minimum(Maximum) Path to Reach a Target</h2><p><a href="https://leetcode.com/list/55ac4kuc/">Minimum(Maximum) Path to Reach a Target</a></p><h2 id="Distinct-Ways"><a href="#Distinct-Ways" class="headerlink" title="Distinct Ways"></a>Distinct Ways</h2><p><a href="https://leetcode.com/list/55ajm50i/">Distinct Ways</a></p><h2 id="Merging-Intervals"><a href="#Merging-Intervals" class="headerlink" title="Merging Intervals"></a>Merging Intervals</h2><p><a href="https://leetcode.com/list/55aj8s16/">Merging Intervals</a></p><h2 id="DP-on-Strings"><a href="#DP-on-Strings" class="headerlink" title="DP on Strings"></a>DP on Strings</h2><p><a href="https://leetcode.com/list/55afh7m7/">DP on Strings</a></p><h2 id="Decision-Making"><a href="#Decision-Making" class="headerlink" title="Decision Making"></a>Decision Making</h2><p><a href="https://leetcode.com/list/55af7bu7/">Decision Making</a></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E6%80%BB%E7%BB%93%E7%AF%87.md">代码随想录 DP 总结</a></li><li><a href="https://www.youtube.com/playlist?list=PLLuMmzMTgVK7vEbeHBDD42pqqG36jhuOr">youtube DP 讲解</a></li><li><a href="https://zhuanlan.zhihu.com/p/543275712">Leetcode DP 题型分类</a></li></ul>]]></content>
       
       
       <categories>

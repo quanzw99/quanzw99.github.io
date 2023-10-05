@@ -1,3 +1,5 @@
+http://example.com/2023/07/16/Dynamic-Programming-Patterns/
+http://example.com/2023/10/02/Leetcode-887-Egg-Drop/
 http://example.com/2023/09/09/Paper-Reading-2/
 http://example.com/2023/09/12/Course-Review-AI-Problem-sloving-by-searching/
 http://example.com/2023/09/05/Install-GPGPU-Sim/
@@ -7,7 +9,6 @@ http://example.com/2023/03/25/Config-for-anaconda/
 http://example.com/2023/08/21/Install-Ubuntu/
 http://example.com/2023/08/12/Common-Syntax-in-STL/
 http://example.com/2023/07/17/Introduction-of-Interpreter/
-http://example.com/2023/07/16/Dynamic-Programming-Patterns/
 http://example.com/2023/07/05/Cpp-Three-core-components/
 http://example.com/2023/07/12/Linear-List-Array/
 http://example.com/2023/08/15/Index-for-Graphics-Hardware/
@@ -29,9 +30,9 @@ http://example.com/tags/Leetcode/
 http://example.com/tags/Algorithm/
 http://example.com/tags/Data-Structure/
 http://example.com/tags/Python/
+http://example.com/tags/Dynamic-Programming/
 http://example.com/tags/Foundation-of-AI/
 http://example.com/tags/Cpp-Foundamentals/
-http://example.com/tags/Dynamic-Programming/
 http://example.com/tags/GoLang/
 http://example.com/tags/Architecture/
 http://example.com/tags/Ubuntu/
