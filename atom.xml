@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-08T00:11:55.903Z</updated>
+  <updated>2023-10-08T07:42:36.258Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,21 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Vulkan-Sim-Experiment</title>
+    <link href="http://example.com/2023/10/07/Vulkan-Sim-Experiment/"/>
+    <id>http://example.com/2023/10/07/Vulkan-Sim-Experiment/</id>
+    <published>2023-10-08T03:42:34.000Z</published>
+    <updated>2023-10-08T07:42:36.258Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>I STRONGLY RECOMMEND</em> following the <code>Readme.md</code> from the <a href="https://github.com/ubc-aamodt-group/vulkan-sim">original Github respository</a> rather than this one!!!<br><span id="more"></span></p><h2 id="Common-Line"><a href="#Common-Line" class="headerlink" title="Common Line"></a>Common Line</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">//</span> 查看gcc版本</span><br><span class="line">gcc --version</span><br><span class="line"><span class="regexp">//</span> ubuntu下解压文件</span><br><span class="line">tar -zxvf filename.tar.gz</span><br></pre></td></tr></table></figure><h2 id="TroubleShooting"><a href="#TroubleShooting" class="headerlink" title="TroubleShooting"></a>TroubleShooting</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">cd vulkan-sim/</span><br><span class="line">source setup_environment</span><br><span class="line"></span><br><span class="line">cd ..<span class="regexp">/mesa-vulkan-sim/</span></span><br><span class="line"></span><br><span class="line"><span class="regexp">//</span> <span class="number">1</span>. 遇到meson版本问题，先升级到指定版本</span><br><span class="line"><span class="regexp">//</span> <span class="number">2</span>. 找不到libdrm，sudo apt-get install pkg-config</span><br><span class="line"><span class="regexp">//</span> <span class="number">3</span>. 找不到Embree，配置路径似乎和`readme`显示的不一致：`\vulkan-sim-root\mesa-vulkan-sim\src\gallium\frontends\lavapipe\meson.build`, 可能的原因是原作者更改了一些代码，但是暂时没更新`readme`。</span><br><span class="line">meson --prefix=<span class="string">&quot;$&#123;PWD&#125;/lib&quot;</span> build -Dvulkan-drivers=swrast -Dgallium-drivers=swrast -Dplatforms=x11 -D b_lundef=false -D buildtype=debug</span><br><span class="line"></span><br><span class="line"><span class="comment"># This compilation produces files necessary to Vulkan-Sim but is expected to fail.</span></span><br><span class="line">ninja -C build/ install </span><br><span class="line"></span><br><span class="line">export VK_ICD_FILENAMES=<span class="variable">$&#123;PWD&#125;</span><span class="regexp">/lib/</span>share<span class="regexp">/vulkan/i</span>cd.d/lvp_icd.x86_64.json</span><br><span class="line">cd ..<span class="regexp">/vulkan-sim/</span></span><br><span class="line">make -j</span><br><span class="line"></span><br><span class="line">cd ..<span class="regexp">/mesa-vulkan-sim/</span></span><br><span class="line"><span class="comment"># This compilation is expected to succeed.</span></span><br><span class="line">ninja -C build/ install</span><br></pre></td></tr></table></figure><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://blog.csdn.net/u012969412/article/details/125388624">ubuntu 多版本gcc版本切换</a></li><li><a href="https://blog.csdn.net/tcjy1000/article/details/131099582#:~:text=%E5%8D%87%E7%BA%A7meson%20%E7%89%88%E6%9C%AC%EF%BC%9A&amp;text=%E5%85%88%E5%AE%89%E8%A3%85%20pip3%20sudo%20apt,meson%20%E7%89%88%E6%9C%AC%E5%B0%B1%E5%8D%87%E7%BA%A7%E4%BA%86">meson 版本升级</a></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;I STRONGLY RECOMMEND&lt;/em&gt; following the &lt;code&gt;Readme.md&lt;/code&gt; from the &lt;a href=&quot;https://github.com/ubc-aamodt-group/vulkan-sim&quot;&gt;original Github respository&lt;/a&gt; rather than this one!!!&lt;br&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Leetcode-887-Egg-Drop</title>
     <link href="http://example.com/2023/10/02/Leetcode-887-Egg-Drop/"/>
     <id>http://example.com/2023/10/02/Leetcode-887-Egg-Drop/</id>
     <published>2023-10-02T22:08:32.000Z</published>
-    <updated>2023-10-08T00:11:55.903Z</updated>
+    <updated>2023-10-08T06:23:14.701Z</updated>
     
-    <content type="html"><![CDATA[<span id="more"></span><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://leetcode.cn/problems/super-egg-drop/description/">problem leetcode link</a></li><li><a href="https://leetcode.cn/problems/super-egg-drop/solutions/44427/ji-ben-dong-tai-gui-hua-jie-fa-by-labuladong/">dp + binary search</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>本文回顾鸡蛋掉落的三个版本。<br><span id="more"></span></p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ul><li><a href="https://leetcode.cn/problems/super-egg-drop/description/">problem leetcode link</a></li><li><a href="https://leetcode.cn/problems/super-egg-drop/solutions/44427/ji-ben-dong-tai-gui-hua-jie-fa-by-labuladong/">dp + binary search</a></li></ul>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;h2 id=&quot;Reference&quot;&gt;&lt;a href=&quot;#Reference&quot; class=&quot;headerlink&quot; title=&quot;Reference&quot;&gt;&lt;/a&gt;Reference&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;htt</summary>
-      
+    <summary type="html">&lt;p&gt;本文回顾鸡蛋掉落的三个版本。&lt;br&gt;</summary>
     
     
     
@@ -452,30 +464,6 @@
     
     
     <category term="Python" scheme="http://example.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Data Commentary</title>
-    <link href="http://example.com/2023/03/17/Data-Commentary/"/>
-    <id>http://example.com/2023/03/17/Data-Commentary/</id>
-    <published>2023-03-18T00:24:30.000Z</published>
-    <updated>2023-07-24T23:40:23.922Z</updated>
-    
-    <content type="html"><![CDATA[<p>What is Data Commentary? In many ascpects of life, we want to comment on data to strenthen argument or claims. We refer to statistics to support/ validate claims, such as charts, tables, figures. In other words, we can take a stance, a position by data commentary. We want to use data to support, illustrate, validate a claim; or invalidate an opposing(opposite) claim.</p><h2 id="Data-Commentary"><a href="#Data-Commentary" class="headerlink" title="Data Commentary"></a>Data Commentary</h2><h3 id="Strength-of-Claim"><a href="#Strength-of-Claim" class="headerlink" title="Strength of Claim"></a>Strength of Claim</h3><ul><li>do not simply articulate/ describe the information in a table, chart or graph(i.e., do not make general comments)</li><li>do not read too much into the data(i.e., do not use unjustified claims)</li><li>find an <em>appropriate strength of claim</em></li></ul><h3 id="Structure"><a href="#Structure" class="headerlink" title="Structure"></a>Structure</h3><p>Common structure of data commentary in order:</p><ul><li>Location and/ or summary statements</li><li>Highlighting statements</li><li>Discussions of implications, problems, recommendations, exceptions, etc.</li></ul><h4 id="Location-and-summary-statements"><a href="#Location-and-summary-statements" class="headerlink" title="Location and summary statements"></a>Location and summary statements</h4><ul><li>Begin the commentary by referring to the table, chart or graph with a brief summary or description.<ul><li>active ex.: Table 6 shows the points of entry of computer virus.</li><li>passive ex.: The points of entry of computer viruses are shown in Table 6.</li><li>Notes: These statements help the reader identify important components in the text.</li></ul></li><li>Helpful expressions:<ul><li>Table 1 provbides…</li><li>Figure 3 plots…</li><li>Figure 4.2 gives…</li><li>Table 5 suggests…</li><li>Figure 2 reveals</li><li>Notes: Present tense is used because the author is talking about the present paper.</li></ul></li><li>Features of data commentary<ul><li>indicative - summarize type of research<ul><li>Table 5 shows the point of entry of computer viruses in U.S. business.</li></ul></li><li>informative - give main results; highlight something interesting<ul><li>Table 5 shows that home disks are the major source of computer viruses.</li></ul></li></ul></li><li>that - clauses<ul><li>Some verbs can be used with or without that clauses.</li><li>Some verbs cannot be used with that clauses.</li><li>Linking as Clauses:<ul><li>As can be seen <em>in</em> Figure 2, …</li><li>As indicated <em>in</em> Table 5, …</li><li>As shown <em>in</em> Figure 1, …</li><li>As predicted <em>by</em> the model, …</li><li>As descrived <em>on</em> the previous page, …</li></ul></li></ul></li></ul><h4 id="Highlighting-statements"><a href="#Highlighting-statements" class="headerlink" title="Highlighting statements"></a>Highlighting statements</h4><ul><li>central section of the data commentary</li><li>highlighting statements are details about the data</li><li>highlighting statement can…<ul><li>identify trends or patterns in the data</li><li>focus on  more important finding</li></ul></li></ul><h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><h3 id="Example-1"><a href="#Example-1" class="headerlink" title="Example 1"></a>Example 1</h3><p>Table 4 shows survey respondents’ self-reported involvement in online misbehavior during the previous 12 months. </p><p>According to the table, the most common online misbehavior is “unauthorized downloading of film and music.” As can be seen, just over three out of four students in the study have downloaded music or film more than once a year. This very high percent age of misbehavior is especially alarming, since protection of intellectual property is a basic element for enriching the film and music industries. Another notable result is that viewing pornographic materials on the internet was reported by 40% of the respondents, although purchasing pornography was reported by only a small minority of these respondents. The least frequently reported misbehaviors were illegally using another person’s email account or credit information, along with either completely copying homework from a website or buying an assignment from a source on the internet.</p><p>It is worthwhile to note that these different forms of online misbehavior seem to be patterned according to the degree of the perCeived seriousness of the bad behavior. Activities that are generally believed to be criminal (e.g., using someone’, credit information) were less frequent than activities that, although unlawful, many do not view as criminal, such as downloading movies and music. Illegal downloading may have an economic cause, but other reasons might be important, as well. This problem will likely continue until reasons that students engage in this behavior are clearly identified.</p><h3 id="Example-2"><a href="#Example-2" class="headerlink" title="Example 2"></a>Example 2</h3><p>Table 12 shows the median number of years to complete a doctoral program for both U.S. and international students (indicated by temporary visa status). </p><p>As can be seen, U.S. students in most fields on average complete doctoral programs in less time than international students .The difference in median years to completion ranges from a relatively low 0.4 years in the humanities to a high of one year in the life sciences. </p><p>The consistent difference in time to degree is not fully understood at present. However, one key factor may be the students’ relationships with their advisors. Advisors typically expect their advisees to work independently, an expectation that might run contrary to the expectations of international student advisees, who may expect their advisors to give explicit input with regard to how to navigate their way through the doctoral program. Expectations that are “unmet, unclear, or unarticulated” (Barnes, 2010) could influence the length of time it takes to earn a doctorate.</p><h2 id="Question"><a href="#Question" class="headerlink" title="Question"></a>Question</h2><ul><li>What is the difference between chart and figure?</li><li>What does the ‘Neutral’ mean?(from Task 1, p.140)</li></ul><h2 id="Vocabulary"><a href="#Vocabulary" class="headerlink" title="Vocabulary"></a>Vocabulary</h2><ul><li>refer to 查阅、提到</li><li>takes a stance, a position 表达立场</li><li>articulate 表达</li><li>unjustified 毫无根据的</li><li>unsound 不稳妥的、靠不住的 </li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;What is Data Commentary? In many ascpects of life, we want to comment on data to strenthen argument or claims. We refer to statistics to </summary>
-      
-    
-    
-    
-    <category term="English" scheme="http://example.com/categories/English/"/>
-    
-    
-    <category term="Academic-Writing" scheme="http://example.com/tags/Academic-Writing/"/>
     
   </entry>
   
