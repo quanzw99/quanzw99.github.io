@@ -33,12 +33,12 @@ http://example.com/tags/Data-Structure/
 http://example.com/tags/Python/
 http://example.com/tags/Foundation-of-AI/
 http://example.com/tags/Cpp-Foundamentals/
-http://example.com/tags/Dynamic-Programming/
 http://example.com/tags/GoLang/
+http://example.com/tags/Dynamic-Programming/
 http://example.com/tags/Architecture/
+http://example.com/tags/Ubuntu/
 http://example.com/tags/Compiler/
 http://example.com/tags/Crafting-Interpreters/
-http://example.com/tags/Ubuntu/
 http://example.com/tags/Hexo/
 http://example.com/tags/Methodology/
 http://example.com/tags/Graphics/
