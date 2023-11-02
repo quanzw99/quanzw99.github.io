@@ -270,13 +270,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Python/</loc>
-    <lastmod>2023-11-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Leetcode/</loc>
     <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -298,7 +291,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Foundation-of-AI/</loc>
+    <loc>http://example.com/tags/Python/</loc>
     <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -312,7 +305,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Dynamic-Programming/</loc>
+    <loc>http://example.com/tags/Foundation-of-AI/</loc>
     <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -326,7 +319,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Architecture/</loc>
+    <loc>http://example.com/tags/Dynamic-Programming/</loc>
     <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -334,6 +327,13 @@
   
   <url>
     <loc>http://example.com/tags/Ubuntu/</loc>
+    <lastmod>2023-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Architecture/</loc>
     <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -391,14 +391,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Tools/</loc>
+    <loc>http://example.com/categories/CS/</loc>
     <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/CS/</loc>
+    <loc>http://example.com/categories/Tools/</loc>
     <lastmod>2023-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
