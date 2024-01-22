@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-22T03:21:29.091Z</updated>
+  <updated>2024-01-22T05:38:06.679Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Course-Review-Historial-Results</title>
+    <title>Course Review ToC - Historial Results</title>
     <link href="http://example.com/2024/01/21/Course-Review-ToC-Historial-Results/"/>
     <id>http://example.com/2024/01/21/Course-Review-ToC-Historial-Results/</id>
     <published>2024-01-22T03:15:06.000Z</published>
-    <updated>2024-01-22T03:21:29.091Z</updated>
+    <updated>2024-01-22T05:38:06.679Z</updated>
     
     <content type="html"><![CDATA[<p>Entropy 和 Kolmogorov complexity 真是让我心累。。。<br>TODO…</p>]]></content>
     
