@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2024/01/21/Course-Review-Historial-Results/</loc>
+    <loc>http://example.com/2024/01/21/Course-Review-ToC-Historial-Results/</loc>
     
     <lastmod>2024-01-22</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://example.com/tags/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -245,7 +245,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2023-06-29</lastmod>
     
@@ -307,13 +307,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Cpp-Foundamentals/</loc>
-    <lastmod>2024-01-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Foundation-of-AI/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -321,7 +314,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/GoLang/</loc>
+    <loc>http://example.com/tags/Theory-of-Computation/</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Cpp-Foundamentals/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -335,7 +335,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Ubuntu/</loc>
+    <loc>http://example.com/tags/GoLang/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -343,6 +343,13 @@
   
   <url>
     <loc>http://example.com/tags/Architecture/</loc>
+    <lastmod>2024-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/Ubuntu/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -385,13 +392,6 @@
   
   <url>
     <loc>http://example.com/tags/Vocabulary-In-Use/</loc>
-    <lastmod>2024-01-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Theory-of-Computation/</loc>
     <lastmod>2024-01-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
