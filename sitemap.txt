@@ -1,3 +1,4 @@
+http://example.com/2024/01/21/Course-Review-Historial-Results/
 http://example.com/2023/10/14/Docker-Usage/
 http://example.com/2023/10/07/Vulkan-Sim-Experiment/
 http://example.com/2023/08/15/Index-for-Graphics-Hardware/
@@ -44,6 +45,7 @@ http://example.com/tags/Hexo/
 http://example.com/tags/Methodology/
 http://example.com/tags/Graphics/
 http://example.com/tags/Vocabulary-In-Use/
+http://example.com/tags/Theory-of-Computation/
 http://example.com/categories/English/
 http://example.com/categories/CS/
 http://example.com/categories/Tools/

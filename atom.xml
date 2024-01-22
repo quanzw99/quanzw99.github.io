@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-02T04:48:49.388Z</updated>
+  <updated>2024-01-22T03:16:41.800Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Course-Review-Historial-Results</title>
+    <link href="http://example.com/2024/01/21/Course-Review-Historial-Results/"/>
+    <id>http://example.com/2024/01/21/Course-Review-Historial-Results/</id>
+    <published>2024-01-22T03:15:06.000Z</published>
+    <updated>2024-01-22T03:16:41.800Z</updated>
+    
+    <content type="html"><![CDATA[<p>Entropy 和 Kolmogorov complexity 真是让我心累。。。<br>TODO…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Entropy 和 Kolmogorov complexity 真是让我心累。。。&lt;br&gt;TODO…&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="CS" scheme="http://example.com/categories/CS/"/>
+    
+    
+    <category term="Theory-of-Computation" scheme="http://example.com/tags/Theory-of-Computation/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker Usage</title>
@@ -433,30 +458,6 @@
     
     
     <category term="Cpp-Foundamentals" scheme="http://example.com/tags/Cpp-Foundamentals/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Argumentative Essays</title>
-    <link href="http://example.com/2023/03/27/Argumentative-Essays/"/>
-    <id>http://example.com/2023/03/27/Argumentative-Essays/</id>
-    <published>2023-03-28T01:33:22.000Z</published>
-    <updated>2023-06-29T01:26:05.580Z</updated>
-    
-    <content type="html"><![CDATA[<p>What is an argument? There are two explaination by Bing. 1) an angry disagreement between peoplep; a discussion or debate between people with different views, opinions, etc. 2) a reason or set of reasons that you use for persuading other people to support your views, opinions, etc.</p><p>What is Argumentative Essays? 1) also called persuasive essays. 2) expresses opinion about a debatable issue. 3) author takes a position and persuades the reader to agree with his/her opinion. 4) author uses strong, logical reasons to support argument.</p><h2 id="Main-Section"><a href="#Main-Section" class="headerlink" title="Main Section"></a>Main Section</h2><p>Main Section concludes four parts: Introduction, Claims(Supporting Arguments), Opposing views(Counterargument) with refutations, Conclusion</p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><ul><li>hook introduces the issue</li><li>background information:<ul><li>gives broader picture of the issue</li><li>tells why issue is important</li><li>can give details about the history of the people involved, what they want, and how it affects them</li></ul></li><li>thesis statement clearly states the author’s point of view</li></ul><h3 id="Body"><a href="#Body" class="headerlink" title="Body"></a>Body</h3><ul><li>reasons for author’s point of view(claims)</li><li>supporting details(facts, examples, statistics, definitions, causes, effects, quotations, anecdotes or questions)</li><li>refuting opponents’ views<ul><li>opposing view is presented(a counterargument)</li><li>(option) express some agreement with opposing view(concession)</li><li>show evidence that author’s argument is stronger(refutation)</li></ul></li></ul><h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><ul><li>restates the thesis argument</li><li>can end with a prediction, warning, or other type of comment</li><li>may state the general issue in a broader context</li></ul><h2 id="Structure"><a href="#Structure" class="headerlink" title="Structure"></a>Structure</h2><p><img src="structure.jpg" alt=""></p><h2 id="More-details"><a href="#More-details" class="headerlink" title="More details"></a>More details</h2><h3 id="Intoduction"><a href="#Intoduction" class="headerlink" title="Intoduction"></a>Intoduction</h3><h4 id="Thesis-Statement"><a href="#Thesis-Statement" class="headerlink" title="Thesis Statement"></a>Thesis Statement</h4><ul><li>Location: Usually at the end of the introduction</li><li>Length: One complete sentence</li><li>Purpose: Summarizes the entire essay</li><li>Parts: <strong>Topic</strong>(theme/subject matter) + <u>controlling data</u>(defines purpose of the essay)</li><li>Example: <strong>The economic crisis</strong> <u>could have been avoided with banking regulations</u></li><li>For the argumentative essay, the thesis statement must be arguable, which means there should be two sides.<ul><li>AI should be allowed in creating work for art competitions.</li><li>AI should not be allowed in creating work for art competitions.</li></ul></li><li>What is wrong with using the following phrases in an argumentative essay thesis statement?<ul><li>has benefits = is beneficial/useful</li><li>has many benefits = is very beneficial/ useful</li><li>has a tremendous number of benefits = is tremendously beneficial useful</li></ul></li><li>We need some kind of comparative statement<ul><li>There are more benefits than disadvantages.</li><li>The advantages outweigh the disadvantages.</li></ul></li></ul><h4 id="Hook"><a href="#Hook" class="headerlink" title="Hook"></a>Hook</h4><ul><li>Location: Begins introduction</li><li>Length: 1 or 2 interesting sentences</li><li>Purpose: Gets the reader’s attention, stimulates curiosity</li><li>What/how can you get the reader interested? What can you use to “hook” the reader/<ul><li><strong>a quotation</strong> from literature or a famous person</li><li><strong>a statistic or fact</strong><ul><li>must cite where you got the info from</li></ul></li><li><strong>a meaningful question</strong><ul><li>get the reader to start thinking about the topic</li></ul></li><li><strong>an unusual perspective</strong><ul><li>teaches the reader something new.</li></ul></li><li><strong>a metaphor</strong> <ul><li>poetically calling something something else</li></ul></li><li><strong>a dilemma</strong> <ul><li>situation in which a difficult choice has to be made between two or more alternatives, especially equally undesirable ones</li></ul></li><li><strong>a personal anecdote</strong> <ul><li>a very short interesting story about a real event and a real person</li></ul></li></ul></li></ul><h4 id="Thesis-Statement-1"><a href="#Thesis-Statement-1" class="headerlink" title="Thesis Statement"></a>Thesis Statement</h4><ul><li>Location: after the hook</li><li>Length: 2-3 sentences</li><li>Purpose:<ul><li>gives broader picture of the issue</li><li>tells why issue is important</li><li>can give details about the history of the people involved, what they want, and how it affects them</li></ul></li></ul><h4 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h4><ul><li>Hook: Henry Paulson’s expression turned to horror as he looked down at the numbers.  He suddenly realized that the market was on the verge of collapse.</li><li>Background: In September 2008 the banking system in the United States nearly collapsed, leading to what many considered to be the worst economic crisis since the great depression of the 1930s.</li><li>Thesis Statement: The economic crisis could have been avoided with banking regulations. </li></ul><h3 id="Claims"><a href="#Claims" class="headerlink" title="Claims"></a>Claims</h3><ul><li>statement the author makes to support the thesis statement</li><li>Each claim must be supported with evidence</li><li>The sentences stating your claims from your outline (A, B, C) should be the topic sentences of your paragraphs in your essay.<ul><li>Add transitions</li></ul></li></ul><h3 id="Opposing-View"><a href="#Opposing-View" class="headerlink" title="Opposing View"></a>Opposing View</h3><ul><li>opposing point of view to the author’s</li><li>author shows understanding of opposing point of view by including it</li><li>Concession<ul><li>author agrees that the opposing point of view is valid, but emphasizes how author’s argument is still stronger</li></ul></li><li>Refutation<ul><li>author’s response to the opposing view</li><li>author shows why the opposing view is weak and the author’s position is strong</li><li>may also address doubts that the reader might have</li></ul></li></ul><h3 id="Conclusion-1"><a href="#Conclusion-1" class="headerlink" title="Conclusion"></a>Conclusion</h3><ul><li>Location: Last paragraph in the essay</li><li>Length<ul><li>3-5 sentences (in our assignment)</li><li>should be the shortest paragraph in the essay</li></ul></li><li>Purpose: restate thesis with different words</li><li>Include a final thought (advice, warning, prediction)</li></ul><h3 id="Outline-gt-Essay"><a href="#Outline-gt-Essay" class="headerlink" title="Outline -&gt; Essay"></a>Outline -&gt; Essay</h3><ul><li>A, B, and C -&gt; Topic sentences for body paragraphs<ul><li>The sentences you wrote for A, B, and C in your outline will become the topic sentences for your body paragraphs.</li><li>That means these sentences should begin each paragraph.</li></ul></li><li>Do not add additional information between the introduction and your first body paragraph.<ul><li>If you need to provide additional background information, then you need to include it in the introduction and revise the introduction so that it is not too long (longer than your body paragraphs).</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;What is an argument? There are two explaination by Bing. 1) an angry disagreement between peoplep; a discussion or debate between people </summary>
-      
-    
-    
-    
-    <category term="English" scheme="http://example.com/categories/English/"/>
-    
-    
-    <category term="Academic-Writing" scheme="http://example.com/tags/Academic-Writing/"/>
     
   </entry>
   
