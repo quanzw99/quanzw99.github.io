@@ -272,6 +272,13 @@
 
   
   <url>
+    <loc>http://example.com/tags/Academic-Writing/</loc>
+    <lastmod>2024-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/Leetcode/</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -287,13 +294,6 @@
   
   <url>
     <loc>http://example.com/tags/Data-Structure/</loc>
-    <lastmod>2024-03-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Academic-Writing/</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -370,14 +370,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Methodology/</loc>
+    <loc>http://example.com/tags/Hexo/</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Hexo/</loc>
+    <loc>http://example.com/tags/Methodology/</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -393,14 +393,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/CS/</loc>
+    <loc>http://example.com/categories/English/</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/English/</loc>
+    <loc>http://example.com/categories/CS/</loc>
     <lastmod>2024-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
